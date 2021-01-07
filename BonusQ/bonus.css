@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+
+#container{
+    position: absolute;
+    top: 25%;
+    color: white
+}
+
+#answerBox{
+    position: absolute;
+    height: 10vh;
+    width: 20vw;
+    border: 2px solid white;
+    top: 40%;
+    color: white;
+}
