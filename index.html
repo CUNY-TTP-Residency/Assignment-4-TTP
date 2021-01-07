@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button class="btn" onclick = "button1()">Click me</button>
+        <button class="btn" onclick = "button2()">No, click me!</button>
+
+        <div id="container">
+            <form>
+                <label for="userInput"> Enter sphere radius. </label></br>
+                <input type="text" id="userInput" value=0.0000></br>
+                <input type="button" class="btn" value="Submit" onclick=calcSphereVolume()>
+            </form>
+        </div>
+
+        <div id="answerBox"></div>
+
+        <div id="hoverBox" onmouseover="hover()"><span>Dont hover over me!</span></div>
+
+        <nav>
+            <p> Please Put In Your Infromation</p>
+           
+        </nav>
+
+        <div class="box">
+         <form action="action_page.php">
+       
+          
+           <label for="fname">First Name</label>
+           <input type="text" id="fname" name="firstname" placeholder="Your name">
+       
+           <label for="lname">Last Name</label>
+           <input type="text" id="lname" name="lastname" placeholder="Your last name">
+       
+           <label for="Email">Email</label>
+            <input type="text" id="Email"  placeholder="Email">
+    
+            <label for="pwd">Password</label>
+            <input type="text" id="pwd" name="pwd" 
+            title= "must contain at least 8 numbers" required>
+            <button type = "button" onclick = "checkPassword()"> Submit </button>
+      
+           </form>
+          </div>   
+        <h1 id="header"> 
+          Checking Password 
+          
+        </h1>
+
+    </body>
+</html>
